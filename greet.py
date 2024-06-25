@@ -15,3 +15,10 @@ def greet():
 
 greet()
 print()
+
+def greet_with_name(name):
+    print(f'Hello {name}')
+    print(f'Welcome to CyberArmy, {name}')
+    
+greet_with_name(Quest)
+print()
